@@ -18,54 +18,14 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-toggleable-md navbar-inverse sticky-top ">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" width="10%" height="10%" alt="">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#myPage">首頁 <br><span>Home</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#north">9月 <br><span>Sep</span></a>
-
-
-
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#mid">10月 <br><span>Oct</span></a>
-
-
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#south">11月 <br><span>Nov</span></a>
-                </li>
-
-            </ul>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">關於MSP<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">MSP?</a></li>
-                    <li><a href="#">MSP 介紹</a></li>
-                    <li><a href="#">Q & A</a></li>
-                </ul>
-            </li>
-
-        </div>
-    </nav> -->
     <nav class="navbar navbar-toggleable-md  sticky-top navbar-toggler-left navbar-light">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" width="10%" height="10%" class="d-inline-block align-top " alt="">
+            <img src="img/logo.png" width="8%" height="8%" class="d-inline-block align-top " alt="">
         </a>
-
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -102,52 +62,36 @@
 
 
     <div class="container-fluid no-gutters">
-        <div class="row ">
-
-            <div class="col-md-2"></div>
-
-            <div class="col-md-8">
-                <div class="ntu_series">
-                    <img src="img/ntu.jpg" alt="">
-
+        <div class="row">
+            <div class="col-0"></div>
+            <div class="col-12">
+                <div id="ntu_series" class="series">
+                    <img class="ntu-img" src="img/ntu.jpg" alt="">
                 </div>
-
-
                 <div class="ntu_content">
-
-                    <h2>資料科學校園系列講座</h2>
+                    <h2 class="pb-2">資料科學校園系列講座</h2>
                     <h5>資策會特別與微軟合作設計全新課程，<br>讓資料科學摸得著用得上，<br> 讓你我都可以成為資料科學家。
                     </h5>
                 </div>
             </div>
-
-            <div class="col-md-2"></div>
-
+            <div class="col-0"></div>
         </div>
-
-
-
     </div>
 
-
-
     <div class="container-fluid marketing">
-        <!-- 北區 -->
-        <div id="sep" class="bg-1">
-            <!-- <h1 class="text-center">北部活動</h1> -->
-            <!-- <h3 class="text-center">北部院校活動總覽</h3> -->
+        <!-- 9月 -->
+        <hr id="sep" class="featurette-divider">
+        <h1> 9月課程 </h1>
+        <div  class="bg-1">
+            <section class="slide">
+                <div class="p-t-0 m-t-2">
+                    <div class="row row-equal active m-t-0">
 
-            <section class="carousel slide carousel-north " data-ride="carousel" id="myCarousel">
-
-                <div class="p-t-0 m-t-2 carousel-inner">
-                    <div class="row row-equal carousel-item active m-t-0">
-
-                        <div class="col-md-3">
+                        <div class="card-wrapper col-md-3 col-sm-6 col-12">
                             <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
+                                <div class="mb-2 card-img-top card-img-top-250 text-center">
                                     <img class="img-fluid" src="./img/azure.png">
                                 </div>
-
 
                                 <div class="detail text-center">
                                     <h2>Azure Basics</h2>
@@ -157,9 +101,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+
+                        <div class="card-wrapper col-md-3 col-sm-6 col-12">
                             <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
+                                <div class="mb-2 card-img-top card-img-top-250 text-center">
                                     <img class="img-fluid" src="./img/cntk.png">
                                 </div>
                                 <div class="detail text-center">
@@ -171,105 +116,36 @@
                             </div>
                         </div>
 
-
-                        <div class="col-md-3">
+                        <div class="card-wrapper col-md-3 col-sm-6 col-12">
                             <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
+                                <div class="mb-2 card-img-top card-img-top-250 text-center">
+                                    <img class="img-fluid" src="./img/python.jpg">
+                                </div>
+                                <div class="detail text-center">
+                                    <h2 >Python Basics</h2>
+                                    <h3>台大</h3>
+                                    <p>2017 / 10 / 16</p>
+                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-wrapper col-md-3 col-sm-6 col-12">
+                            <div class="card">
+                                <div class="mb-2 card-img-top card-img-top-250 text-center">
                                     <img class="img-fluid" src="./img/python.jpg">
                                 </div>
                                 <div class="detail text-center">
                                     <h2>Python Basics</h2>
                                     <h3>台大</h3>
                                     <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Basics</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row row-equal carousel-item m-t-0">
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Azure Advanced</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Advanced</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 17</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Advanced</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 18</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Advanced</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 18</p>
                                     <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </section>
-
-
-
 
             <!-- 按活動詳情後的畫面 -->
             <!-- Modal -->
@@ -308,217 +184,9 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
 
         <hr class="featurette-divider">
-
-        <!-- 中區 -->
-        <div id="mid" class="bg-1">
-            <h1 class="text-center">中部活動</h1>
-            <h3 class="text-center">中部院校活動總覽</h3>
-            <section class="carousel slide carousel-mid" data-ride="carousel" id="postsCarousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 text-md-right lead">
-                            <a class="btn btn-outline-secondary prev mid-prev" href="" title="go back">Go Back<i class="fa fa-lg fa-chevron-left"></i></a>
-                            <a class="btn btn-outline-secondary next mid-next" href="" title="more">More<i class="fa fa-lg fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container p-t-0 m-t-2 carousel-inner">
-                    <div class="row row-equal carousel-item active m-t-0">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Azure Basics</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 14</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Basics</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 15</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Basics</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-equal carousel-item m-t-0">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Azure Advanced</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Advanced</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 17</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Advanced</h2>
-                                    <h3>清大</h3>
-                                    <p>2017 / 10 / 18</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- 南區 -->
-        <div id="south" class="bg-1">
-            <h1 class="text-center">南部活動</h1>
-            <h3 class="text-center">南部院校活動總覽</h3>
-            <section class="carousel slide carousel-south" data-ride="carousel" id="postsCarousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 text-md-right lead">
-                            <a class="btn btn-outline-secondary prev south-prev" href="" title="go back">Go Back<i class="fa fa-lg fa-chevron-left"></i></a>
-                            <a class="btn btn-outline-secondary next south-next" href="" title="more">More<i class="fa fa-lg fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container p-t-0 m-t-2 carousel-inner">
-                    <div class="row row-equal carousel-item active m-t-0">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Azure Basics</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 14</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Basics</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 15</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Basics</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-equal carousel-item m-t-0">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Azure Advanced</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Advanced</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 17</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Advanced</h2>
-                                    <h3>成大</h3>
-                                    <p>2017 / 10 / 18</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
 
         <!-- FOOTER -->
         <footer>
@@ -533,11 +201,13 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
     <script>
         window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="./js/holder.min.js"></script>
