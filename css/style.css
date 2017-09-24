@@ -246,7 +246,7 @@ p {
         margin-top: 1rem;
         max-height: 16.6rem;
         max-width: 100%;
-        overflow: visible;
+        overflow: hidden;
     }
 
     .card > h2 {
@@ -258,7 +258,7 @@ p {
 /* responsive for cellphone*/
 @media (max-width: 575px) {
     .ntu_content > h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: bolder;
         margin-left: -0.6rem;
         margin-right: -0.6rem;
@@ -297,14 +297,14 @@ p {
     
     .card-img-top-250 {
         max-width: 40%;
-        overflow: visible;
+        overflow: hidden;
     }
 
     .card > .detail {
-        width: 60%;
+        width: 55%;
         margin-top: 0.3rem;
         position: absolute;
-        margin-left: 40%;
+        margin-left: 42%;
     }
 
     .card h2 {
