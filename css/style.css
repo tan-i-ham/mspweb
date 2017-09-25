@@ -302,9 +302,9 @@ p {
 
     .card > .detail {
         width: 55%;
-        margin-top: 0.3rem;
+        top: 5%;
         position: absolute;
-        margin-left: 42%;
+        left: 42%;
     }
 
     .card h2 {
