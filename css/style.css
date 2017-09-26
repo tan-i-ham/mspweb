@@ -1,10 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 /* @import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
 * {
     font-family: 'Noto Sans Kannada', sans-serif;
@@ -12,11 +9,8 @@
 
 * {
     /* border: 2px solid rebeccapurple; */
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 /*}  */
 
 
@@ -24,12 +18,6 @@
 
 body {
     font: 400 1rem/1.8 Lato, sans-serif;
-<<<<<<< HEAD
-=======
-    background-color: #283542;
-    background-color: #f0ebe6;
-    background-color: #1A96F5;
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
     background-color: #7dd7c7;
     color: black;
 }
@@ -53,10 +41,7 @@ h3 {
 p {
     font-size: 0.7rem;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 
 /* Navbar */
 
@@ -74,7 +59,6 @@ nav.navbar {
 .nav-item {
     padding-right: 10px;
     font-size: 1rem;
-<<<<<<< HEAD
 }
 
 .navbar-nav li a:hover {
@@ -88,29 +72,6 @@ nav.navbar {
     /* background-color: white; */
     border-bottom: 2px solid #fff;
 }
-
-
-/* 
-.navbar-nav li.active {
-    border-bottom: 1px solid red;
-} */
-
-
-/*  change navbar li colors, also active one but not disabled one */
-
-
-/* .navbar ul.navbar-nav li.nav-item a.nav-link {
-    color: white;
-}
-
-.navbar-toggler {
-    background-color: white;
-}
-
-.navbar-light span.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#7dd7c7' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-*/
 
 
 /* change navbar background on collapse */
@@ -129,8 +90,8 @@ nav.navbar {
         margin: 0 auto;
     }
     .navbar-brand>img {
-        width: 7%;
-        height: 7%;
+        width: 9%;
+        height: 9%;
     }
     .navbar-nav li a.active {
         border-bottom: 2px solid #fff;
@@ -138,24 +99,14 @@ nav.navbar {
     }
 }
 
-@media (max-width: 600px) {
-    .navbar-brand {
-        /* position: absolute; */
-        width: 100%;
-        left: 0;
-        text-align: center;
-        margin: 0 auto;
-    }
+@media (max-width: 576px) {
     .navbar-nav li a {
-        /* position: absolute; */
-        width: 100%;
-        left: 0;
         text-align: center;
         margin: 0 auto;
     }
     .navbar-brand>img {
-        width: 10%;
-        height: 10%;
+        width: 9%;
+        height: 9%;
     }
 }
 
@@ -165,8 +116,6 @@ nav.navbar {
 .nav-item.active .nav-link,
 .nav-item:hover .nav-link {
     color: black;
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 }
 
 
@@ -254,10 +203,7 @@ nav.navbar {
     background-color: #7dd7c7;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 /* Center align the text within the three columns below the carousel */
 
 .marketing .col-lg-4 {
@@ -311,70 +257,14 @@ nav.navbar {
     letter-spacing: -.05rem;
 }
 
+
 /* equal card height */
 
-<<<<<<< HEAD
-/* equal card height */
-=======
 .row-equal>div[class*='col-'] {
     display: flex;
     flex: 1 0 auto;
 }
 
-@media (min-width: 576px) {
-    .ntu_content {
-        width:100%;
-        text-align: center;
-    }
-    .ntu_content > h2 {
-        font-size: 3rem;
-        width: 100%;
-        letter-spacing: 0.25rem;
-        font-weight: bolder;
-        margin-bottom: 2rem;
-    } 
-    
-    .ntu_content > h5 {
-        font-size: 1.8rem;
-        line-height: 2.5rem;
-    }
-
-    .row-equal .card {
-        width: 100%;
-        height: 16.2rem;
-    }
-    
-    .card-wrapper {
-        height: 17rem;
-    }
-
-    .card {
-        margin: 0.5rem;
-    }
-    
-    /* control image height */
-    .card-img-top {
-        height: 30%;
-    }
-    
-    .card-img-top > img {
-        max-height: 100%;
-    }
-    
-    .card-img-top-250 {
-        margin-top: 1rem;
-        max-height: 16.6rem;
-        max-width: 100%;
-        overflow: hidden;
-    }
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
-
-    .card > h2 {
-        font-weight: bold;
-    }
-}
-
-<<<<<<< HEAD
 @media (min-width: 576px) {
     .ntu_content {
         width: 100%;
@@ -418,68 +308,8 @@ nav.navbar {
         font-weight: bold;
     }
 }
-=======
 
-/* responsive for cellphone*/
-@media (max-width: 575px) {
-    .ntu_content > h2 {
-        font-size: 1.1rem;
-        font-weight: bolder;
-        margin-left: -0.6rem;
-        margin-right: -0.6rem;
-    }
 
-    .ntu_content > h5 {
-        font-size: 0.7rem;
-        line-height: 1.1rem;
-        margin-left: -0.6rem;
-        margin-right: -0.6rem;
-    }
-    .card-wrapper {
-        height: 7rem;
-    }
-
-    .row-equal .card {
-        width: 100%;
-        height: 6.5rem;
-    }
-
-    .card-img-top {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .card-img-top > img {
-        position: relative;
-        padding-left: 10%;
-        max-width: 100%;
-        width: auto;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    
-    .card-img-top-250 {
-        max-width: 40%;
-        overflow: hidden;
-    }
-
-    .card > .detail {
-        width: 55%;
-        top: 5%;
-        position: absolute;
-        left: 42%;
-    }
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
-
-    .card h2 {
-        margin-top: 0.4rem;
-        font-weight: bolder;
-        font-size: 1.0rem;
-    }
-
-<<<<<<< HEAD
 /* responsive for cellphone*/
 
 @media (max-width: 575px) {
@@ -536,24 +366,12 @@ nav.navbar {
         font-weight: bold;
         line-height: 0.75rem
     }
-=======
-    .card h3 {
-        font-size: 0.7rem;
-        font-weight: bold;
-        line-height: 0.75rem
-    }
-
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
     .card p {
         font-size: 0.6rem;
         font-weight: bold;
         line-height: 0.65rem;
         margin-bottom: 0.1rem;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
     .btn {
         font-size: 0.6rem;
         padding: 0.3rem 0.7rem;
@@ -568,10 +386,7 @@ nav.navbar {
     padding-top: 50px;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
 /* footer section */
 
 footer {
@@ -634,11 +449,7 @@ a:link a:visited {
     color: #fff;
 }
 
-<<<<<<< HEAD
 .series>img {
-=======
-.series > img {
->>>>>>> 99c6203b17e2b83758bf515c7a2c7fd6d9af75e9
     max-width: 100%;
 }
 
