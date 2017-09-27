@@ -12,19 +12,15 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h2 {
     font-size: 1.5rem;
 }
 
-h3 {
-    font-size: 1.3rem;
-}
-
 p {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 /* Navbar */
@@ -56,6 +52,7 @@ p {
 
 .course-detail {
     word-wrap:break-word;
+    letter-spacing: 0.1rem;
 }
 
 .ntu-img {
@@ -66,6 +63,7 @@ p {
 .series-title {
     text-align: center;
     font-size: 4rem;
+    font-weight: bolder;
 }
 
 .course {
@@ -109,10 +107,28 @@ footer a:hover {
 
 @media (max-width: 575px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
     }
 
     .series-title {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .featurette-divider {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .course {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
