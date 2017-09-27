@@ -14,27 +14,22 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-toggleable-md  sticky-top navbar-toggler-left navbar-light">
+    <nav id="bar" class="navbar navbar-toggleable-md  sticky-top navbar-toggler-left navbar-light">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <a class="navbar-brand" href="#">
-            <img src="img/logo.png" width="8%" height="8%" class="d-inline-block align-top " alt="">
+            <img src="img/logo.png" width="10%" height="10%" class="d-inline-block align-top " alt="">
         </a>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
-
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sep">9 月</a>
+                    <a class="nav-link" href="#header">首頁 </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#oct">10 月</a>
@@ -45,31 +40,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#dec">12 月</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Dropdown link
-                        </a>
-                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#"></a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>-->
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid no-gutters">
+    <div id="header" class="container-fluid no-gutters">
         <div class="row">
             <div class="col-0"></div>
             <div class="col-12">
                 <div id="ntu_series" class="series">
-                    <img class="ntu-img" src="img/ntu.jpg" alt="">
+                    <img class="ntu-img" src="./img/banner/ntu.jpg" alt="">
                 </div>
 
                 <div class="ntu_content text-center">
-                    <h2 class="pb-2">資料科學校園系列講座</h2>
-                    <h5>資策會特別與微軟合作設計全新課程，<br>讓資料科學摸得著用得上，<br> 讓你我都可以成為資料科學家。
+                    <h1 class="header">資料科學校園系列講座</h2>
+                    <h5 class="header">資策會特別與微軟合作設計全新課程，<br>讓資料科學摸得著用得上，<br> 讓你我都可以成為資料科學家。
                     </h5>
                 </div>
                 
@@ -78,125 +63,88 @@
         </div>
     </div>
 
-    <div class="container-fluid marketing">
-        <!-- 9月 -->
-        <hr id="sep" class="featurette-divider">
-        <h1> 9月課程 </h1>
-        <div  class="bg-1">
-            <section class="slide">
-                <div class="p-t-0 m-t-2">
-                    <div class="row row-equal active m-t-0">
-
-                        <div class="card-wrapper col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card">
-                                <div class="mb-2 card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/azure.png">
-                                </div>
-
-                                <div class="detail text-center">
-                                    <h2>Azure Basics</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 14</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-wrapper col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card">
-                                <div class="mb-2 card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/cntk.png">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>CNTK Basics</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 15</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-wrapper col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card">
-                                <div class="mb-2 card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2 >Python Basics</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-wrapper col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="card">
-                                <div class="mb-2 card-img-top card-img-top-250 text-center">
-                                    <img class="img-fluid" src="./img/python.jpg">
-                                </div>
-                                <div class="detail text-center">
-                                    <h2>Python Basics</h2>
-                                    <h3>台大</h3>
-                                    <p>2017 / 10 / 16</p>
-                                    <button class="btn" data-toggle="modal" data-target="#myModal">活動詳情</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container marketing">
+        <!-- 10月 -->
+        <hr id="oct" class="featurette-divider">
+        <h1 class="series-title"> 10月課程 </h1>
+        <div class="row row-equal">
+            <div class="course col-12">
+                <img class="img-fluid" src="./img/banner/1011.png" alt="">
+                <div class="course-header">
+                    <h1 class="header">三大 Deep Learning 深度學習框架比較</h1>
+                    <h2 class="header">2017/10/11(三) 18:30 @ 台大</h2>
                 </div>
-            </section>
-
-            <!-- 按活動詳情後的畫面 -->
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"></button>
-                            <h4><span class="glyphicon glyphicon-lock"></span> 活動詳情</h4>
-                        </div>
-                        <div class="modal-body">
-                            <form role="form">
-
-
-                                <h3 style="color: black">主題: Python介紹</h3>
-                                <div class="detail_act">
-                                    資策會特別與微軟合作設計全新課程， 讓資料科學摸得著用得上， 讓你我都可以成為資料科學家。
-                                </div>
-
-
-                                <a class="btn btn-block in_btn " href="https://www.accupass.com/event/1709060357381911369455" target="blank">
-                                    <img src="img/accupass_logo.png" alt=""> 手刀報名去
-                                    <span class="glyphicon glyphicon-ok"></span>
-                                </a>
-
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                <span class="glyphicon glyphicon-remove"></span> 返回
-              </button>
-                            <!-- <p>Need <a href="#">help?</a></p> -->
-                        </div>
-                    </div>
+                <div class="course-detail">
+                    Deep Learning 深度學習，毫無異議的是目前科技界最火熱的技術。從 60 年前開始發展的深度學習，2005 年因為電腦運算效能的提升，Deep Learning 也再次受到矚目更是有了突破性的進展。而在 2016 年 AlphaGO 戰勝世界圍棋冠軍後，深度學習一詞更是為世人所知。如今在世界上有許多不同的深度學習框架供世人所用，本活動將會帶領大家探討 CNTK、TensorFlow 以及 Caffe 這三個廣為人知的深度學習框架。                        
+                </div>
+                <div class="course-button">
+                    <a class="btn btn-secondary" href="#" role="button" target="_blank">講義</a>
+                    <a class="btn btn-primary" href="https://www.accupass.com/event/1709231517121640634533" role="button" target="_blank">了解詳情報名去</a>
                 </div>
             </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <!-- FOOTER -->
-        <footer>
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
-
+        <!-- 11月 -->
+        <hr id="nov" class="featurette-divider">
+        <h1 class="series-title"> 11月課程 </h1>
+        <div class="row row-equal">
+            <div class="course col-12">
+                <img class="img-fluid" src="./img/banner/1011.png" alt="">
+                <div class="course-header">
+                    <h1 class="header">三大 Deep Learning 深度學習框架比較</h1>
+                    <h2 class="header">2017/10/11(三) 18:30 @ 台大</h2>
+                </div>
+                <div class="course-detail">
+                    Deep Learning 深度學習，毫無異議的是目前科技界最火熱的技術。從 60 年前開始發展的深度學習，2005 年因為電腦運算效能的提升，Deep Learning 也再次受到矚目更是有了突破性的進展。而在 2016 年 AlphaGO 戰勝世界圍棋冠軍後，深度學習一詞更是為世人所知。如今在世界上有許多不同的深度學習框架供世人所用，本活動將會帶領大家探討 CNTK、TensorFlow 以及 Caffe 這三個廣為人知的深度學習框架。                        
+                </div>
+                <div class="course-button">
+                    <a class="btn btn-secondary" href="#" role="button" target="_blank">講義</a>
+                    <a class="btn btn-primary" href="https://www.accupass.com/event/1709231517121640634533" role="button" target="_blank">了解詳情報名去</a>
+                </div>
+            </div>
+            <div class="course col-12">
+                <img class="img-fluid" src="./img/banner/1011.png" alt="">
+                <div class="course-header">
+                    <h1 class="header">三大 Deep Learning 深度學習框架比較</h1>
+                    <h2 class="header">2017/10/11(三) 18:30 @ 台大</h2>
+                </div>
+                <div class="course-detail">
+                    Deep Learning 深度學習，毫無異議的是目前科技界最火熱的技術。從 60 年前開始發展的深度學習，2005 年因為電腦運算效能的提升，Deep Learning 也再次受到矚目更是有了突破性的進展。而在 2016 年 AlphaGO 戰勝世界圍棋冠軍後，深度學習一詞更是為世人所知。如今在世界上有許多不同的深度學習框架供世人所用，本活動將會帶領大家探討 CNTK、TensorFlow 以及 Caffe 這三個廣為人知的深度學習框架。                        
+                </div>
+                <div class="course-button">
+                    <a class="btn btn-secondary" href="#" role="button" target="_blank">講義</a>
+                    <a class="btn btn-primary" href="https://www.accupass.com/event/1709231517121640634533" role="button" target="_blank">了解詳情報名去</a>
+                </div>
+            </div>
+            <div class="course col-12">
+                <img class="img-fluid" src="./img/banner/1011.png" alt="">
+                <div class="course-header">
+                    <h1 class="header">三大 Deep Learning 深度學習框架比較</h1>
+                    <h2 class="header">2017/10/11(三) 18:30 @ 台大</h2>
+                </div>
+                <div class="course-detail">
+                    Deep Learning 深度學習，毫無異議的是目前科技界最火熱的技術。從 60 年前開始發展的深度學習，2005 年因為電腦運算效能的提升，Deep Learning 也再次受到矚目更是有了突破性的進展。而在 2016 年 AlphaGO 戰勝世界圍棋冠軍後，深度學習一詞更是為世人所知。如今在世界上有許多不同的深度學習框架供世人所用，本活動將會帶領大家探討 CNTK、TensorFlow 以及 Caffe 這三個廣為人知的深度學習框架。                        
+                </div>
+                <div class="course-button">
+                    <a class="btn btn-secondary" href="#" role="button" target="_blank">講義</a>
+                    <a class="btn btn-primary" href="https://www.accupass.com/event/1709231517121640634533" role="button" target="_blank">了解詳情報名去</a>
+                </div>
+            </div>
+        </div>
+        <!-- 12月 -->
+        <hr id="dec" class="featurette-divider">
+        <h1 class="series-title"> 12月課程 </h1>
+        <div class="row row-equal">
+        </div>
     </div>
     <!-- /.container -->
 
+    <hr class="featurette-divider">
+    
+    <!-- FOOTER -->
+    <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

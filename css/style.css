@@ -1,24 +1,5 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-
-/* @import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
-* {
-    font-family: 'Noto Sans Kannada', sans-serif;
-}
-
-* {
-    /* border: 2px solid rebeccapurple; */
-/*}  */
-
-
-/* Padding below the footer and lighter body text */
-
 body {
-    font: 400 1rem/1.8 Lato, sans-serif;
-    background-color: #283542;
-    background-color: #f0ebe6;
-    background-color: #1A96F5;
-    background-color: #7dd7c7;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -45,10 +26,7 @@ p {
 /* Navbar */
 
 .navbar {
-    background-color: #99d0fc;
-    background-color: #7aa7c9;
-    background-color: #7dd7c7;
-    opacity: 0.8;
+    background-color: #50bddf;
     color: white;
 }
 
@@ -57,35 +35,12 @@ p {
     font-size: 1rem;
 }
 
+/* top banner */
 
-/* /////////////// */
-
-@keyframes slideInLeft {
-    from {
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
+/* container */
 
 .container-fluid {
-    /* border: 2px solid blue; */
-    background-color: #283542;
-    background-color: #99d0fc;
-    background-color: #7dd7c7;
+    background-color: #ffffff;
 }
 
 .row {
@@ -138,8 +93,6 @@ p {
 
 #sep {
     margin: 5% 50px;
-    /* border: 2px solid black; */
-    background-color: #7dd7c7;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -154,12 +107,11 @@ p {
     margin-left: .75rem;
 }
 
-.marketing h1 {
+.marketing > h1 {
     margin: 3rem 0rem 0rem 0rem;
     width: 100%;
     font-size: 3rem;
     font-weight: bolder;
-    color: #fff;
     letter-spacing: 0.6rem;
     display: flex;
     justify-content: center;
@@ -358,45 +310,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-
-/* modal */
-
-.modal-header,
-.close {
-    background-color: #283542;
-    background-color: #99d0fc;
-    color: #fff !important;
-    text-align: center;
-    font-size: 1.875rem;
-}
-
-.modal-header,
-.modal-body {
-    padding: 40px 50px;
-}
-
-.detail_act {
-    height: 200px;
-}
-
-.in_btn {
-    background-color: #3888cd;
-    color: initial;
-    /*   讓連結文字回到初值 */
-    text-decoration: initial;
-    color: #fff;
-}
-
-.in_btn:hover {
-    opacity: 0.8;
-    background-color: #3888cd;
-}
-
-.in_btn img {
-    height: 10%;
-    width: 10%;
-}
-
 a:link a:visited {
     text-decoration: none;
     color: #fff;
@@ -408,9 +321,4 @@ a:link a:visited {
 
 .row {
     margin: 0;
-}
-
-.ntu-img {
-    width: 100%;
-    height: auto;
 }

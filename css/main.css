@@ -1,0 +1,118 @@
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+.series {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #50bddf;
+    color: white;
+}
+
+.nav-item {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* container */
+
+.header {
+    margin-top: 1rem;
+}
+
+.series-header {
+    position: relative;
+    top: 10%;
+}
+
+.course-detail {
+    word-wrap:break-word;
+}
+
+.ntu-img {
+    width: 100%;
+    height: auto;
+}
+
+.series-title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.course {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.course-button {
+    float: right;
+    margin-top: 1rem;
+}
+
+.course-detail {
+    margin-top: 1rem;
+}
+
+.course-header {
+    margin-top: 1rem;
+}
+
+.featurette-divider {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* footer section */
+
+footer {
+    color: black;
+    padding: 32px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .series-title {
+        font-size: 3rem;
+    }
+}
