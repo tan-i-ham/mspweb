@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     color: black;
+    font-family: Microsoft JhengHei;
 }
 
 .series {
@@ -26,6 +27,8 @@ p {
 /* Navbar */
 
 .navbar {
+    width: 100%;
+    height: auto;
     background-color: #50bddf;
     color: white;
 }
@@ -37,6 +40,11 @@ p {
 
 .nav-link {
     color: white;
+}
+
+.navbar-img {
+    height: 2rem;
+    width: auto; 
 }
 
 /* container */
@@ -51,7 +59,7 @@ p {
 }
 
 .course-detail {
-    word-wrap:break-word;
+    word-wrap: break-word;
     letter-spacing: 0.1rem;
 }
 
