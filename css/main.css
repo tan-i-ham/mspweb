@@ -51,6 +51,7 @@ p {
 
 .header {
     margin-top: 1rem;
+    font-weight: bolder;
 }
 
 .series-header {
@@ -92,6 +93,10 @@ p {
     margin-top: 1rem;
 }
 
+.course-header > h1 {
+    font-weight: bold;
+}
+
 .featurette-divider {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -113,17 +118,29 @@ footer a:hover {
     text-decoration: none;
 }
 
+.web {
+    display: block;
+}
+
+.web > p {
+    font-size: 0.8rem;
+}
+
+.phone {
+    display: none;
+}
+
 @media (max-width: 575px) {
     h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     h5 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .series-title {
@@ -138,5 +155,25 @@ footer a:hover {
     .course {
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+
+    .course-detail {
+        font-size: 0.8rem;
+    }
+
+    .web {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    .phone > img {
+        width: 100%;        
+    }
+
+    footer > p {
+        font-size: 0.5rem;
     }
 }
