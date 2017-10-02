@@ -54,6 +54,10 @@ p {
     font-weight: bolder;
 }
 
+.location {
+    font-size: 1.3rem;
+}
+
 .series-header {
     position: relative;
     top: 10%;
@@ -87,6 +91,7 @@ p {
 
 .course-detail {
     margin-top: 1rem;
+    letter-spacing: 0.05rem;
 }
 
 .course-header {
@@ -94,6 +99,7 @@ p {
 }
 
 .course-header > h1 {
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -122,8 +128,8 @@ footer a:hover {
     display: block;
 }
 
-.web > p {
-    font-size: 0.8rem;
+.web p {
+    font-size: 0.9rem;
 }
 
 .phone {
@@ -152,12 +158,21 @@ footer a:hover {
         margin-bottom: 3rem;
     }
 
+    .course-header > h1 {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
     .course {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
 
     .course-detail {
+        font-size: 0.8rem;
+    }
+
+    .location {
         font-size: 0.8rem;
     }
 
